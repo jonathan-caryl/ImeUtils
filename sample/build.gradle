@@ -23,4 +23,5 @@ dependencies {
     compile project(':imeutils')
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile "com.android.support:appcompat-v7:${supportLibVersion}"
+    compile 'com.android.support.constraint:constraint-layout:1.0.0'
 }
